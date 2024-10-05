@@ -1,4 +1,5 @@
 import React from 'react';
+import Map from '../Map/Map';
 
 const ContactLoacation = () => {
     return (
@@ -8,7 +9,7 @@ const ContactLoacation = () => {
 					<div class="col-xl-12 col-xs-12 text-page">
 						<article id="post-25" class="post-25 page type-page status-publish hentry">
 							<div class="entry-content clearfix" id="entry-div">
-								{/* <section data-vc-full-width="true" data-vc-full-width-init="false" class="vc_section">
+								<section data-vc-full-width="true" data-vc-full-width-init="false" class="vc_section">
 									<div class="vc_row wpb_row vc_row-fluid">
 										<div class="wpb_column vc_column_container vc_col-sm-12">
 											<div class="vc_column-inner">
@@ -57,33 +58,34 @@ const ContactLoacation = () => {
 											<div class="vc_column-inner">
 												<div class="wpb_wrapper">
 													<div class="es-resp">
-														<div class="visible-xl" style="height: 80px;"></div>
+														<div class="visible-xl" style={{height:" 80px"}}></div>
 														<div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
-															style="height: 80px;"></div>
-														<div class="visible-md" style="height: 80px;"></div>
-														<div class="visible-sm " style="height: 80px;"></div>
-														<div class="visible-ms" style="height: 80px;"></div>
-														<div class="visible-xs" style="height: 80px;"></div>
+															style={{height:" 80px"}}></div>
+														<div class="visible-md" style={{height:" 80px"}}></div>
+														<div class="visible-sm " style={{height:" 80px"}}></div>
+														<div class="visible-ms" style={{height:" 80px"}}></div>
+														<div class="visible-xs" style={{height:" 80px"}}></div>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div data-vc-full-width="true" data-vc-full-width-init="false"
+									{/* <div data-vc-full-width="true" data-vc-full-width-init="false"
 										data-vc-stretch-content="true"
 										class="vc_row wpb_row vc_row-fluid vc_row-no-padding">
 										<div class="wpb_column vc_column_container vc_col-sm-12">
 											<div class="vc_column-inner">
 												<div class="wpb_wrapper">
 													<div id="like_sc_google_maps_1704262222"
-														data-marker="http://mirasat.like-themes.com/wp-content/themes/mirasat/assets/images/location.png"
+														data-marker="wp-content/themes/mirasat/assets/images/location.png"
 														class="ltx-google-maps    vc_custom_1538491575778"
 														data-style="yellow" data-lng="-74.1180862" data-lat="40.7058253"
-														data-zoom="11" style="width: 100%; height: 450px;"></div>
+														data-zoom="11" style={{height:" 450px", width: "100%"}}></div>
 												</div>
 											</div>
 										</div>
-									</div>
+									</div> */}
+                                    <Map/>
 									<div class="vc_row-full-width vc_clearfix"></div>
 									<div data-vc-full-width="true" data-vc-full-width-init="false"
 										class="vc_row wpb_row vc_row-fluid">
@@ -91,16 +93,16 @@ const ContactLoacation = () => {
 											<div class="vc_column-inner">
 												<div class="wpb_wrapper">
 													<div class="ltx-content-width col-align-center"
-														id="like_sc_content_width_71488357" style="max-width: 1050px">
+														id="like_sc_content_width_71488357" style={{maxWidth:" 1050px"}}>
 														<div class="ltx-wrapper">
 															<div class="es-resp">
-																<div class="visible-xl" style="height: 32px;"></div>
+																<div class="visible-xl" style={{height:" 32px"}}></div>
 																<div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
-																	style="height: 32px;"></div>
-																<div class="visible-md" style="height: 32px;"></div>
-																<div class="visible-sm " style="height: 32px;"></div>
-																<div class="visible-ms" style="height: 32px;"></div>
-																<div class="visible-xs" style="height: 32px;"></div>
+																	style={{height:" 32px"}}></div>
+																<div class="visible-md" style={{height:" 32px"}}></div>
+																<div class="visible-sm " style={{height:" 32px"}}></div>
+																<div class="visible-ms" style={{height:" 32px"}}></div>
+																<div class="visible-xs" style={{height:" 32px"}}></div>
 															</div>
 															<div class="heading  header-subheader align-center color-black subcolor-main transform-default theme-icon-second icon-type-hidden   vc_custom_1562164638403 heading-tag-h4"
 																id="like_sc_header_1323789447">
@@ -117,7 +119,7 @@ const ContactLoacation = () => {
 																		action="http://mirasat.like-themes.com/contacts/#wpcf7-f10726-p25-o2"
 																		method="post" class="wpcf7-form"
 																		novalidate="novalidate">
-																		<div style="display: none;"> <input
+																		<div style={{display:" none"}}> <input
 																				type="hidden" name="_wpcf7"
 																				value="10726" /> <input type="hidden"
 																				name="_wpcf7_version" value="5.1.4" />
@@ -166,13 +168,13 @@ const ContactLoacation = () => {
 																</div>
 															</div>
 															<div class="es-resp">
-																<div class="visible-xl" style="height: 64px;"></div>
+																<div class="visible-xl" style={{height:" 64px"}}></div>
 																<div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
-																	style="height: 64px;"></div>
-																<div class="visible-md" style="height: 64px;"></div>
-																<div class="visible-sm " style="height: 64px;"></div>
-																<div class="visible-ms" style="height: 64px;"></div>
-																<div class="visible-xs" style="height: 64px;"></div>
+																	style={{height:" 64px"}}></div>
+																<div class="visible-md" style={{height:" 64px"}}></div>
+																<div class="visible-sm " style={{height:" 64px"}}></div>
+																<div class="visible-ms" style={{height:" 64px"}}></div>
+																<div class="visible-xs" style={{height:" 64px"}}></div>
 															</div>
 														</div>
 													</div>
@@ -181,7 +183,7 @@ const ContactLoacation = () => {
 										</div>
 									</div>
 									<div class="vc_row-full-width vc_clearfix"></div>
-								</section> */}
+								</section>
                                 
 								<div class="vc_row-full-width vc_clearfix"></div>
 							</div>
